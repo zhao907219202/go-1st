@@ -8,6 +8,5 @@ import (
 
 func main() {
 	rand.Seed(time.Now().Unix())
-	fmt.Println("My favorate number is", rand.Intn(10))
+	fmt.Println("My favorite number is", rand.Intn(10))
 }
-gt
